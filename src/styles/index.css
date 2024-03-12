@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App{
+    width: 800px;
+    padding: 50px;
+}
+
+.post{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.post__content{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+    align-items: start;
+}
+
+.page_active{
+    font-size: 20px;
+}
