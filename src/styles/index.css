@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .App{
@@ -42,4 +43,12 @@
 
 .page_active{
     font-size: 20px;
+}
+
+.navbar{
+    display: flex;
+    gap: 30px; 
+    padding: 50px;
+    width: 100%;
+    background: gray;
 }
