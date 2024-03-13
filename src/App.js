@@ -16,12 +16,6 @@ function App() {
       <Routes>
         <Route path='/about' element={<About />} />
         <Route path='/posts' element={<Posts />} />
-        {/* <Route
-          path="/posts/:id"
-          render={({ match }) => (
-            <User id={match.params.id} />
-          )}
-        /> */}
         <Route path='*' element={<Posts />} />
 
       </Routes>
